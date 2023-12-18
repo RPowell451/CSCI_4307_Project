@@ -1,0 +1,7 @@
+# Genetic Sudoku solver
+
+The purpose of this project was to gain further experience with genetic algorithms by applying them to new problems. The new task that I had decided to apply this particular machine learning algorithm to was the solving of Sudoku puzzles.  In order to create my project, I was forced to reconsider and reengineer many of the design choices that I selected for my 8 queens puzzle solver program. This led me to learn more about genetic algorithms, as it resulted in the discovery of critical flaws in my original implementation of the algorithm.
+In order to run my “Genetic Sudoku Solver”, one must run the source code using a copy of Visual Basic 6. You can load a specific puzzle by copying the puzzle’s 81 character representation into the “Command2_Click()” subroutine. Once you run the program in Visual Basic 6, click on the button titled “load puzzle”. This action should load the puzzle in the puzzle grid. Next click on the “start solve” button. The program will then proceed to attempt to solve the puzzle using my newly improved genetic algorithm. The program will terminate its attempt after 500 generations. Once the program either quits its search or succeeds in finding a solution, it will output its best solution to the puzzle underneath the heading entitled “final arrangement”. The program also displays various statistics related to its solution search, both during and after completion.
+
+## Link to Video Presentation
+https://www.youtube.com/watch?v=d4Fr7Asmhfw
